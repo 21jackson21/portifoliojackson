@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  body{margin: 0;}
+  .container{
+    display: grid;
+  }
+  header{grid-column-start: 1;
+  grid-column-end: 12;
+  background-color: rgb(3, 173, 224);}
+  .menu{
+  text-align: center;
+  
+  }
+  .button {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 4px;
+  word-spacing: 8px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  background-color: rgb(3, 173, 224);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px 0px black;
+}
+
+a{text-decoration: none;}
+
+
+
+</style>
+</head>
+<body>
+  <header class="Container">
+    <h3 style="color: white; text-align: center;">Meu Portfólio</h3>
+  </header>
+  <nav class="menu ">
+    <span class="button"><a href="sobremim.html" style="color:white">Sobre Mim</a></span>
+    <span class="button"><a href="Formação.html" style="color:white">Formação</a></span>
+    <span class="button"><a href="portifólio.html"style="color:white">Portifólio</a></span>
+    <span class="button"><a href="Contato.html"style="color:white">Contato</a></span>
+    </nav>
+
+    <div class="container foto">
+      <img src="myphoto.jpeg" alt="" width="200px" height="200">
+      <p>Nome: Jackson Brudna Farias</p>
+      <p>Idade:21 anos</p>
+
+    </div>
+
+    <footer class="container rodape">
+
+    </footer>
+  
+</body>
+</html>
